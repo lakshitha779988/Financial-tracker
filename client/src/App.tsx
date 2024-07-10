@@ -3,7 +3,6 @@ import {BrowserRouter as Router , Route ,Routes} from "react-router-dom"
 import { Dashboard } from './pages/dashbord'
 import { Auth } from './pages/auth'
 import { FinancialRecordProvider } from './contexts/financial-record-contesxt'
-import { Navbar } from './components/nav-bar'
 import { FinacialRecordForm } from './pages/dashbord/financial-record-form'
 import { Home } from './pages/Home'
 import { FinancialRecordList } from './pages/dashbord/finacial-record-list'

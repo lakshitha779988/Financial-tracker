@@ -1,11 +1,11 @@
-import { useUser } from '@clerk/clerk-react';
+
 import {useNavigate} from 'react-router-dom'
 import { useFinancialRecords } from '../../contexts/financial-record-contesxt';
 import { useMemo } from 'react';
 import './home.css';
 
 export  const Home = ()=>{
-    const { user } = useUser();
+    
     const { records } = useFinancialRecords();
   
     const totalMonthly = useMemo(() => {

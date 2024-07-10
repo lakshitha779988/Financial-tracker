@@ -1,4 +1,4 @@
-import {SignedIn, SignedOut , SignInButton , SignOutButton, SignUpButton, UserButton, } from '@clerk/clerk-react'
+import {SignedIn, SignedOut , SignInButton , SignUpButton, UserButton, } from '@clerk/clerk-react'
 
 
 

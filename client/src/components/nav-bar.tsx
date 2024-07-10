@@ -1,5 +1,5 @@
 import { SignedIn, UserButton } from '@clerk/clerk-react'
-import {Link, Navigate} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export const  Navbar = ()=>(
     <div className='nav-bar'>
